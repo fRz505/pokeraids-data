@@ -1,0 +1,31 @@
+name: Actualizar jefes de incursión
+
+on:
+  schedule:
+    - cron: "30 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Generar bosses.json
+        run: node scripts/update-bosses.mjs
+      - name: Commit si hubo cambios
+        run: |
+          if [ -n "$(git status --porcelain bosses.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add bosses.json
+            git commit -m "Actualiza jefes de incursión"
+            git push
+          else
+            echo "Sin cambios"
+          fi

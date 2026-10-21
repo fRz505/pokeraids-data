@@ -1,0 +1,138 @@
+{
+  "semana": "2026-10-21 al 2026-10-27",
+  "nota": "Datos armados a mano a partir de guías de la comunidad. Los campos con verificar=true hay que confirmarlos en Pokebattler o en Dittobase antes de confiar en ellos. El campo dex es el número de Pokédex de la especie base, y sirve para buscar la imagen.",
+  "jefes": [
+    {
+      "id": "palkia",
+      "nombre": "Palkia",
+      "dex": 484,
+      "tipo_incursion": "5 estrellas",
+      "tipos": ["Agua", "Dragón"],
+      "debilidades": [
+        { "tipo": "Dragón", "multiplicador": 1.6 },
+        { "tipo": "Hada", "multiplicador": 1.6 }
+      ],
+      "atacantes": [
+        {
+          "pokemon": "Mega Rayquaza",
+          "dex": 384,
+          "rapido": "Dragon Tail",
+          "cargado": "Dragon Ascent",
+          "verificar": true
+        },
+        {
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
+          "verificar": true
+        },
+        {
+          "pokemon": "Mega Garchomp",
+          "dex": 445,
+          "rapido": "Dragon Tail",
+          "cargado": "Outrage",
+          "verificar": true
+        },
+        {
+          "pokemon": "Dialga (Forma Origen)",
+          "dex": 483,
+          "rapido": "Dragon Breath",
+          "cargado": "Draco Meteor",
+          "verificar": true
+        }
+      ]
+    },
+    {
+      "id": "mega-charizard-x",
+      "nombre": "Mega Charizard X",
+      "dex": 6,
+      "tipo_incursion": "Mega",
+      "tipos": ["Fuego", "Dragón"],
+      "debilidades": [
+        { "tipo": "Dragón", "multiplicador": 1.6 },
+        { "tipo": "Tierra", "multiplicador": 1.6 },
+        { "tipo": "Roca", "multiplicador": 1.6 }
+      ],
+      "atacantes": [
+        {
+          "pokemon": "Mega Rayquaza",
+          "dex": 384,
+          "rapido": "Dragon Tail",
+          "cargado": "Dragon Ascent",
+          "verificar": true
+        },
+        {
+          "pokemon": "Mega Garchomp",
+          "dex": 445,
+          "rapido": "Dragon Tail",
+          "cargado": "Outrage",
+          "verificar": true
+        },
+        {
+          "pokemon": "Mega Diancie",
+          "dex": 719,
+          "rapido": null,
+          "cargado": null,
+          "verificar": true
+        },
+        {
+          "pokemon": "Terrakion",
+          "dex": 639,
+          "rapido": "Smack Down",
+          "cargado": "Rock Slide",
+          "verificar": true
+        }
+      ]
+    },
+    {
+      "id": "mega-charizard-y",
+      "nombre": "Mega Charizard Y",
+      "dex": 6,
+      "tipo_incursion": "Mega",
+      "tipos": ["Fuego", "Volador"],
+      "debilidades": [
+        { "tipo": "Roca", "multiplicador": 2.56 },
+        { "tipo": "Agua", "multiplicador": 1.6 },
+        { "tipo": "Eléctrico", "multiplicador": 1.6 }
+      ],
+      "atacantes": [
+        {
+          "pokemon": "Tyranitar Oscuro",
+          "dex": 248,
+          "rapido": "Smack Down",
+          "cargado": "Stone Edge",
+          "verificar": true
+        },
+        {
+          "pokemon": "Rhyperior",
+          "dex": 464,
+          "rapido": "Smack Down",
+          "cargado": "Rock Wrecker",
+          "verificar": true
+        },
+        {
+          "pokemon": "Rampardos",
+          "dex": 409,
+          "rapido": "Smack Down",
+          "cargado": "Rock Slide",
+          "verificar": true
+        },
+        {
+          "pokemon": "Terrakion",
+          "dex": 639,
+          "rapido": "Smack Down",
+          "cargado": "Rock Slide",
+          "verificar": true
+        },
+        {
+          "pokemon": "Aerodactyl Oscuro",
+          "dex": 142,
+          "rapido": "Rock Throw",
+          "cargado": "Rock Slide",
+          "verificar": true
+        }
+      ]
+    }
+  ]
+}

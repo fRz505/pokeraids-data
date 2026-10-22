@@ -131,12 +131,16 @@ async function typesOf(id) {
 
 // ---------- Pokébattler ----------
 const TIER_RE = /^RAID_LEVEL_(5|6|MEGA)$/;
+// Raids oscuras de 5 estrellas: el nombre exacto del tier no lo pudimos confirmar,
+// así que se acepta cualquier tier con SHADOW y un 5 o 6, menos los de pools (FUTURE/LEGACY/EVENTS).
+const isWantedTier = (t = "") =>
+  TIER_RE.test(t) || (/SHADOW/.test(t) && /[56]/.test(t) && !/FUTURE|LEGACY|EVENTS/.test(t));
 
 export function currentBosses(raidsJson) {
   const seen = new Set();
   const list = [];
   for (const t of raidsJson.tiers ?? []) {
-    if (!TIER_RE.test(t.tier ?? "")) continue;
+    if (!isWantedTier(t.tier ?? "")) continue;
     for (const r of t.raids ?? []) {
       if (r.upcoming) continue;
       const id = r.pokemonId ?? r.pokemon;
@@ -151,11 +155,16 @@ export function currentBosses(raidsJson) {
 export function upcomingBosses(raidsJson) {
   const out = [];
   for (const t of raidsJson.tiers ?? []) {
-    if (!TIER_RE.test(t.tier ?? "")) continue;
+    if (!isWantedTier(t.tier ?? "")) continue;
     for (const r of t.raids ?? []) {
       if (!r.upcoming) continue;
+      const s = splitId(r.pokemonId ?? r.pokemon);
       out.push({
-        nombre: splitId(r.pokemonId ?? r.pokemon).nombre,
+        nombre: s.nombre,
+        base: s.base,
+        tipo_incursion: /SHADOW/.test(r.pokemonId ?? r.pokemon ?? "") || /SHADOW/.test(t.tier)
+          ? "Oscuro"
+          : /MEGA/.test(r.pokemonId ?? r.pokemon ?? "") || t.tier !== "RAID_LEVEL_5" ? "Mega" : "5 estrellas",
         desde: r.startDate ? new Date(r.startDate).toISOString().slice(0, 10) : null,
       });
     }
@@ -253,11 +262,12 @@ async function buildBoss(b) {
   const recomendado = Math.max(minimo, Math.ceil(baseScore));
   const clima = SKIP_WEATHER ? undefined : await weatherReport(b.id, b.tier, baseScore);
 
-  const megaLike = /MEGA/.test(b.id) || b.tier !== "RAID_LEVEL_5";
+  const shadow = /SHADOW/.test(b.id) || /SHADOW/.test(b.tier);
+  const megaLike = /MEGA/.test(b.id) || (!shadow && b.tier !== "RAID_LEVEL_5");
   return {
     id: slug(b.id),
     nombre, dex,
-    tipo_incursion: megaLike ? "Mega" : "5 estrellas",
+    tipo_incursion: shadow ? "Oscuro" : megaLike ? "Mega" : "5 estrellas",
     tipos: typesEn.map((t) => TIPO_ES[t] ?? t),
     debilidades: weaknesses(typesEn),
     jugadores: {
@@ -273,6 +283,7 @@ async function buildBoss(b) {
 async function main() {
   const outPath = path.join(path.dirname(fileURLToPath(import.meta.url)), "..", "bosses.json");
   const raids = await getJson(`${PB}/raids`);
+  console.log("Tiers en /raids:", (raids.tiers ?? []).map((t) => t.tier).join(", "));
   const bosses = currentBosses(raids);
   if (!bosses.length) throw new Error("No encontré jefes actuales en /raids (¿cambió el formato?). No toco bosses.json.");
 
@@ -288,7 +299,11 @@ async function main() {
   if (!jefes.length) throw new Error("No pude armar ningún jefe. No toco bosses.json.");
 
   const hoy = new Date().toISOString().slice(0, 10);
-  const proximos = upcomingBosses(raids);
+  const proximos = [];
+  for (const u of upcomingBosses(raids)) {
+    const { base, ...rest } = u;
+    proximos.push({ ...rest, dex: await dexOf(base) });
+  }
   const data = {
     semana: `Actualizado el ${hoy}`,
     nota: "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",

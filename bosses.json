@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-10-21",
+  "semana": "Actualizado el 2026-10-22",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -244,16 +244,86 @@
           "verificar": false
         }
       ]
+    },
+    {
+      "id": "landorus-shadow-form",
+      "nombre": "Landorus Oscuro",
+      "dex": 645,
+      "tipo_incursion": "Oscuro",
+      "tipos": [],
+      "debilidades": [],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 3,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Nieve"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Ice Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Ice Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Kyurem White",
+          "dex": 0,
+          "rapido": "Ice Fang",
+          "cargado": "Ice Burn",
+          "verificar": false
+        },
+        {
+          "pokemon": "Primal Kyogre",
+          "dex": 382,
+          "rapido": "Waterfall",
+          "cargado": "Avalanche",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mamoswine Oscuro",
+          "dex": 473,
+          "rapido": "Powder Snow",
+          "cargado": "Avalanche",
+          "verificar": false
+        },
+        {
+          "pokemon": "Kyurem Black",
+          "dex": 0,
+          "rapido": "Dragon Tail",
+          "cargado": "Freeze Shock",
+          "verificar": false
+        }
+      ]
     }
   ],
   "proximos": [
     {
       "nombre": "Giratina (Forma Origen)",
-      "desde": "2026-10-28"
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-10-28",
+      "dex": 487
     },
     {
       "nombre": "Mega Sableye",
-      "desde": "2026-10-28"
+      "tipo_incursion": "Mega",
+      "desde": "2026-10-28",
+      "dex": 302
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-10-27",
+  "semana": "Actualizado el 2026-10-28",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -95,248 +95,6 @@
       ]
     },
     {
-      "id": "palkia",
-      "nombre": "Palkia",
-      "dex": 484,
-      "tipo_incursion": "5 estrellas",
-      "tipos": [
-        "Agua",
-        "Dragón"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Dragón",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Hada",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 2,
-        "recomendado": 2,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Viento"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Eternatus",
-          "dex": 890,
-          "rapido": "Dragon Tail",
-          "cargado": "Dynamax Cannon",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Rayquaza",
-          "dex": 384,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Dragonite",
-          "dex": 149,
-          "rapido": "Dragon Tail",
-          "cargado": "Outrage Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Garchomp",
-          "dex": 445,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Palkia (Forma Origen)",
-          "dex": 484,
-          "rapido": "Dragon Tail",
-          "cargado": "Spacial Rend",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Mewtwo Y",
-          "dex": 150,
-          "rapido": "Psycho Cut",
-          "cargado": "Future Sight Plus",
-          "verificar": false
-        }
-      ]
-    },
-    {
-      "id": "charizard-mega-x",
-      "nombre": "Mega Charizard X",
-      "dex": 6,
-      "tipo_incursion": "Mega",
-      "tipos": [
-        "Fuego",
-        "Dragón"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Tierra",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Roca",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Dragón",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 1,
-        "recomendado": 1,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Viento"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Eternatus",
-          "dex": 890,
-          "rapido": "Dragon Tail",
-          "cargado": "Dynamax Cannon",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Rayquaza",
-          "dex": 384,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Dragonite",
-          "dex": 149,
-          "rapido": "Dragon Tail",
-          "cargado": "Outrage Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Garchomp",
-          "dex": 445,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Primal Groudon",
-          "dex": 383,
-          "rapido": "Mud Shot",
-          "cargado": "Precipice Blades",
-          "verificar": false
-        },
-        {
-          "pokemon": "Garchomp Oscuro",
-          "dex": 445,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        }
-      ]
-    },
-    {
-      "id": "charizard-mega-y",
-      "nombre": "Mega Charizard Y",
-      "dex": 6,
-      "tipo_incursion": "Mega",
-      "tipos": [
-        "Fuego",
-        "Volador"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Roca",
-          "multiplicador": 2.56
-        },
-        {
-          "tipo": "Agua",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Eléctrico",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 1,
-        "recomendado": 1,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Parcialmente nublado"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Mega Diancie",
-          "dex": 719,
-          "rapido": "Rock Throw",
-          "cargado": "Rock Slide",
-          "verificar": false
-        },
-        {
-          "pokemon": "Rhyperior Oscuro",
-          "dex": 464,
-          "rapido": "Smack Down",
-          "cargado": "Rock Wrecker",
-          "verificar": false
-        },
-        {
-          "pokemon": "Tyrantrum Oscuro",
-          "dex": 697,
-          "rapido": "Rock Throw",
-          "cargado": "Meteor Beam",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Tyranitar",
-          "dex": 248,
-          "rapido": "Smack Down",
-          "cargado": "Stone Edge",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Aerodactyl",
-          "dex": 142,
-          "rapido": "Rock Throw",
-          "cargado": "Rock Slide",
-          "verificar": false
-        },
-        {
-          "pokemon": "Gigalith Oscuro",
-          "dex": 526,
-          "rapido": "Smack Down",
-          "cargado": "Meteor Beam",
-          "verificar": false
-        }
-      ]
-    },
-    {
       "id": "sableye-mega",
       "nombre": "Mega Sableye",
       "dex": 302,
@@ -375,17 +133,17 @@
           "verificar": false
         },
         {
-          "pokemon": "Zacian Crowned Sword",
-          "dex": 0,
-          "rapido": "Metal Claw",
-          "cargado": "Play Rough",
-          "verificar": false
-        },
-        {
           "pokemon": "Mega Rayquaza",
           "dex": 384,
           "rapido": "Dragon Tail",
           "cargado": "Dragon Ascent",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zacian Crowned Sword",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Play Rough",
           "verificar": false
         },
         {
@@ -403,10 +161,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Mega Raichu Y",
-          "dex": 26,
-          "rapido": "Charm",
-          "cargado": "Zap Cannon Plus",
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
           "verificar": false
         }
       ]

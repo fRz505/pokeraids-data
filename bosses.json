@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-10-28",
+  "semana": "Actualizado el 2026-10-30",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -242,6 +242,18 @@
       "tipo_incursion": "5 estrellas",
       "desde": "2026-11-04",
       "dex": 487
+    },
+    {
+      "nombre": "Zacian Crowned Sword",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-05",
+      "dex": 0
+    },
+    {
+      "nombre": "Zamazenta Crowned Shield",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-05",
+      "dex": 0
     },
     {
       "nombre": "Tornadus Oscuro",

@@ -1,8 +1,99 @@
 {
-  "semana": "Actualizado el 2026-10-30",
+  "semana": "Actualizado el 2026-11-03",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
+    {
+      "id": "giratina-altered-form",
+      "nombre": "Giratina (Forma Modificada)",
+      "dex": 487,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Fantasma",
+        "Dragón"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Hielo",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Dragón",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Hada",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Viento",
+          "Niebla"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Rayquaza",
+          "dex": 384,
+          "rapido": "Dragon Tail",
+          "cargado": "Breaking Swipe",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Dragonite",
+          "dex": 149,
+          "rapido": "Dragon Tail",
+          "cargado": "Outrage Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Hex",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Kyurem Black",
+          "dex": 0,
+          "rapido": "Dragon Tail",
+          "cargado": "Freeze Shock",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        }
+      ]
+    },
     {
       "id": "giratina-origin-form",
       "nombre": "Giratina (Forma Origen)",
@@ -234,15 +325,78 @@
           "verificar": false
         }
       ]
+    },
+    {
+      "id": "tornadus-shadow-form",
+      "nombre": "Tornadus Oscuro",
+      "dex": 641,
+      "tipo_incursion": "Oscuro",
+      "tipos": [],
+      "debilidades": [],
+      "jugadores": {
+        "minimo": 3,
+        "recomendado": 4,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Lluvia",
+          "Nieve"
+        ],
+        "evitar": [
+          "Niebla"
+        ],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Future Sight Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Manectric",
+          "dex": 310,
+          "rapido": "Thunder Fang",
+          "cargado": "Discharge Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Kyurem White",
+          "dex": 0,
+          "rapido": "Ice Fang",
+          "cargado": "Ice Burn",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zekrom Oscuro",
+          "dex": 644,
+          "rapido": "Charge Beam",
+          "cargado": "Fusion Bolt",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Raichu Y",
+          "dex": 26,
+          "rapido": "Thunder Shock",
+          "cargado": "Zap Cannon Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Raichu X",
+          "dex": 26,
+          "rapido": "Thunder Shock",
+          "cargado": "Volt Tackle Plus",
+          "verificar": false
+        }
+      ]
     }
   ],
   "proximos": [
-    {
-      "nombre": "Giratina (Forma Modificada)",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-04",
-      "dex": 487
-    },
     {
       "nombre": "Zacian Crowned Sword",
       "tipo_incursion": "5 estrellas",
@@ -254,12 +408,6 @@
       "tipo_incursion": "5 estrellas",
       "desde": "2026-11-05",
       "dex": 0
-    },
-    {
-      "nombre": "Tornadus Oscuro",
-      "tipo_incursion": "Oscuro",
-      "desde": "2026-11-04",
-      "dex": 641
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-04",
+  "semana": "Actualizado el 2026-11-05",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -90,6 +90,136 @@
           "dex": 229,
           "rapido": "Snarl",
           "cargado": "Dark Pulse Plus",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "zacian-crowned-sword-form",
+      "nombre": "Zacian Crowned Sword",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [],
+      "debilidades": [],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 3,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [],
+        "evitar": [
+          "Parcialmente nublado"
+        ],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Delphox",
+          "dex": 655,
+          "rapido": "Fire Spin",
+          "cargado": "Mystical Fire Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Primal Groudon",
+          "dex": 383,
+          "rapido": "Mud Shot",
+          "cargado": "Precipice Blades",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Fire Spin",
+          "cargado": "Overheat",
+          "verificar": false
+        },
+        {
+          "pokemon": "Reshiram Oscuro",
+          "dex": 643,
+          "rapido": "Fire Fang",
+          "cargado": "Fusion Flare",
+          "verificar": false
+        },
+        {
+          "pokemon": "Heatran Oscuro",
+          "dex": 485,
+          "rapido": "Fire Spin",
+          "cargado": "Magma Storm",
+          "verificar": false
+        },
+        {
+          "pokemon": "Blacephalon",
+          "dex": 806,
+          "rapido": "Incinerate",
+          "cargado": "Mind Blown",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "zamazenta-crowned-shield-form",
+      "nombre": "Zamazenta Crowned Shield",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [],
+      "debilidades": [],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 3,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [],
+        "evitar": [],
+        "nota": "El clima casi no cambia el resultado en este jefe.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Counter",
+          "cargado": "Dynamic Punch Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Delphox",
+          "dex": 655,
+          "rapido": "Fire Spin",
+          "cargado": "Mystical Fire Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Counter",
+          "cargado": "Future Sight Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Lucario",
+          "dex": 448,
+          "rapido": "Force Palm",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Blaziken",
+          "dex": 257,
+          "rapido": "Counter",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Keldeo",
+          "dex": 647,
+          "rapido": "Low Kick",
+          "cargado": "Secret Sword",
           "verificar": false
         }
       ]
@@ -239,18 +369,5 @@
       ]
     }
   ],
-  "proximos": [
-    {
-      "nombre": "Zacian Crowned Sword",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-05",
-      "dex": 0
-    },
-    {
-      "nombre": "Zamazenta Crowned Shield",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-05",
-      "dex": 0
-    }
-  ]
+  "proximos": []
 }

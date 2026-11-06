@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-05",
+  "semana": "Actualizado el 2026-11-06",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -369,5 +369,18 @@
       ]
     }
   ],
-  "proximos": []
+  "proximos": [
+    {
+      "nombre": "Kyurem White",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-14",
+      "dex": 0
+    },
+    {
+      "nombre": "Zekrom",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-14",
+      "dex": 644
+    }
+  ]
 }

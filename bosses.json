@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-06",
+  "semana": "Actualizado el 2026-11-07",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -371,10 +371,22 @@
   ],
   "proximos": [
     {
+      "nombre": "Kyurem Black",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-15",
+      "dex": 0
+    },
+    {
       "nombre": "Kyurem White",
       "tipo_incursion": "5 estrellas",
       "desde": "2026-11-14",
       "dex": 0
+    },
+    {
+      "nombre": "Reshiram",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-15",
+      "dex": 643
     },
     {
       "nombre": "Zekrom",

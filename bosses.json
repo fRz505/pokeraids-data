@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-07",
+  "semana": "Actualizado el 2026-11-08",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -371,6 +371,18 @@
   ],
   "proximos": [
     {
+      "nombre": "Cresselia",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-16",
+      "dex": 488
+    },
+    {
+      "nombre": "Darkrai",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-16",
+      "dex": 491
+    },
+    {
       "nombre": "Kyurem Black",
       "tipo_incursion": "5 estrellas",
       "desde": "2026-11-15",
@@ -393,6 +405,12 @@
       "tipo_incursion": "5 estrellas",
       "desde": "2026-11-14",
       "dex": 644
+    },
+    {
+      "nombre": "Mega Banette",
+      "tipo_incursion": "Mega",
+      "desde": "2026-11-16",
+      "dex": 354
     }
   ]
 }

@@ -1,8 +1,99 @@
 {
-  "semana": "Actualizado el 2026-11-09",
+  "semana": "Actualizado el 2026-11-13",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
+    {
+      "id": "kyurem-white-form",
+      "nombre": "Kyurem White",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Dragón",
+        "Hielo"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Lucha",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Roca",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Dragón",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Acero",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Hada",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Viento",
+          "Nieve"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Counter",
+          "cargado": "Dynamic Punch Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Lucario",
+          "dex": 448,
+          "rapido": "Force Palm",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zacian Crowned Sword",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Behemoth Blade",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zamazenta Crowned Shield",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Behemoth Bash",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dusk Mane",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Sunsteel Strike",
+          "verificar": false
+        }
+      ]
+    },
     {
       "id": "zacian-crowned-sword-form",
       "nombre": "Zacian Crowned Sword",
@@ -111,13 +202,6 @@
           "verificar": false
         },
         {
-          "pokemon": "Mega Lucario",
-          "dex": 448,
-          "rapido": "Force Palm",
-          "cargado": "Aura Sphere",
-          "verificar": false
-        },
-        {
           "pokemon": "Mega Blaziken",
           "dex": 257,
           "rapido": "Counter",
@@ -125,10 +209,103 @@
           "verificar": false
         },
         {
-          "pokemon": "Keldeo",
-          "dex": 647,
-          "rapido": "Low Kick",
-          "cargado": "Secret Sword",
+          "pokemon": "Primal Groudon",
+          "dex": 383,
+          "rapido": "Mud Shot",
+          "cargado": "Precipice Blades",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Fire Spin",
+          "cargado": "Overheat",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "zekrom",
+      "nombre": "Zekrom",
+      "dex": 644,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Dragón",
+        "Eléctrico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Hielo",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Tierra",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Dragón",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Hada",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Viento"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Rayquaza",
+          "dex": 384,
+          "rapido": "Dragon Tail",
+          "cargado": "Breaking Swipe",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Dragonite",
+          "dex": 149,
+          "rapido": "Dragon Tail",
+          "cargado": "Outrage Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Garchomp",
+          "dex": 445,
+          "rapido": "Dragon Tail",
+          "cargado": "Breaking Swipe",
+          "verificar": false
+        },
+        {
+          "pokemon": "Kyurem Black",
+          "dex": 0,
+          "rapido": "Dragon Tail",
+          "cargado": "Freeze Shock",
+          "verificar": false
+        },
+        {
+          "pokemon": "Primal Groudon",
+          "dex": 383,
+          "rapido": "Mud Shot",
+          "cargado": "Precipice Blades",
           "verificar": false
         }
       ]
@@ -154,22 +331,10 @@
       "dex": 0
     },
     {
-      "nombre": "Kyurem White",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-14",
-      "dex": 0
-    },
-    {
       "nombre": "Reshiram",
       "tipo_incursion": "5 estrellas",
       "desde": "2026-11-15",
       "dex": 643
-    },
-    {
-      "nombre": "Zekrom",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-14",
-      "dex": 644
     },
     {
       "nombre": "Mega Banette",

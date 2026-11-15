@@ -1,8 +1,173 @@
 {
-  "semana": "Actualizado el 2026-11-14",
+  "semana": "Actualizado el 2026-11-15",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
+    {
+      "id": "cresselia",
+      "nombre": "Cresselia",
+      "dex": 488,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Psíquico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Bicho",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 3,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Niebla",
+          "Lluvia"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Hex",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Shadow Claw",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Shadow Ball",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Beedrill",
+          "dex": 15,
+          "rapido": "Bug Bite",
+          "cargado": "Fell Stinger Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Darkrai Oscuro",
+          "dex": 491,
+          "rapido": "Snarl",
+          "cargado": "Foul Play",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "darkrai",
+      "nombre": "Darkrai",
+      "dex": 491,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Siniestro"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Lucha",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Bicho",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Hada",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Lluvia"
+        ],
+        "evitar": [
+          "Niebla"
+        ],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Counter",
+          "cargado": "Dynamic Punch Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Blaziken",
+          "dex": 257,
+          "rapido": "Counter",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Lucario",
+          "dex": 448,
+          "rapido": "Force Palm",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Keldeo",
+          "dex": 647,
+          "rapido": "Low Kick",
+          "cargado": "Secret Sword",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Falinks",
+          "dex": 870,
+          "rapido": "Counter",
+          "cargado": "Brick Break Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Beedrill",
+          "dex": 15,
+          "rapido": "Infestation",
+          "cargado": "Fell Stinger Plus",
+          "verificar": false
+        }
+      ]
+    },
     {
       "id": "kyurem-black-form",
       "nombre": "Kyurem Black",
@@ -83,97 +248,6 @@
           "dex": 448,
           "rapido": "Force Palm",
           "cargado": "Aura Sphere",
-          "verificar": false
-        },
-        {
-          "pokemon": "Necrozma Dusk Mane",
-          "dex": 0,
-          "rapido": "Metal Claw",
-          "cargado": "Sunsteel Strike",
-          "verificar": false
-        }
-      ]
-    },
-    {
-      "id": "kyurem-white-form",
-      "nombre": "Kyurem White",
-      "dex": 0,
-      "tipo_incursion": "5 estrellas",
-      "tipos": [
-        "Dragón",
-        "Hielo"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Lucha",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Roca",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Dragón",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Acero",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Hada",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 1,
-        "recomendado": 2,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Viento",
-          "Nieve"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Mega Mewtwo X",
-          "dex": 150,
-          "rapido": "Counter",
-          "cargado": "Dynamic Punch Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Lucario",
-          "dex": 448,
-          "rapido": "Force Palm",
-          "cargado": "Aura Sphere",
-          "verificar": false
-        },
-        {
-          "pokemon": "Eternatus",
-          "dex": 890,
-          "rapido": "Dragon Tail",
-          "cargado": "Dynamax Cannon",
-          "verificar": false
-        },
-        {
-          "pokemon": "Zacian Crowned Sword",
-          "dex": 0,
-          "rapido": "Metal Claw",
-          "cargado": "Behemoth Blade",
-          "verificar": false
-        },
-        {
-          "pokemon": "Zamazenta Crowned Shield",
-          "dex": 0,
-          "rapido": "Metal Claw",
-          "cargado": "Behemoth Bash",
           "verificar": false
         },
         {
@@ -268,41 +342,102 @@
       ]
     },
     {
-      "id": "zekrom",
-      "nombre": "Zekrom",
-      "dex": 644,
-      "tipo_incursion": "5 estrellas",
+      "id": "banette-mega",
+      "nombre": "Mega Banette",
+      "dex": 354,
+      "tipo_incursion": "Mega",
       "tipos": [
-        "Dragón",
-        "Eléctrico"
+        "Fantasma"
       ],
       "debilidades": [
         {
-          "tipo": "Hielo",
+          "tipo": "Fantasma",
           "multiplicador": 1.6
         },
         {
-          "tipo": "Tierra",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Dragón",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Hada",
+          "tipo": "Siniestro",
           "multiplicador": 1.6
         }
       ],
       "jugadores": {
-        "minimo": 2,
-        "recomendado": 2,
+        "minimo": 1,
+        "recomendado": 1,
         "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
         "verificar": false
       },
       "clima": {
         "mejor": [
-          "Viento"
+          "Niebla"
+        ],
+        "evitar": [
+          "Parcialmente nublado",
+          "Lluvia"
+        ],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Psycho Cut",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Hex",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Future Sight Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Hydreigon Oscuro",
+          "dex": 635,
+          "rapido": "Bite",
+          "cargado": "Brutal Swing",
+          "verificar": false
+        },
+        {
+          "pokemon": "Darkrai Oscuro",
+          "dex": 491,
+          "rapido": "Snarl",
+          "cargado": "Foul Play",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "tornadus-shadow-form",
+      "nombre": "Tornadus Oscuro",
+      "dex": 641,
+      "tipo_incursion": "Oscuro",
+      "tipos": [],
+      "debilidades": [],
+      "jugadores": {
+        "minimo": 3,
+        "recomendado": 4,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Lluvia",
+          "Nieve"
         ],
         "evitar": [],
         "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
@@ -310,74 +445,49 @@
       },
       "atacantes": [
         {
-          "pokemon": "Eternatus",
-          "dex": 890,
-          "rapido": "Dragon Tail",
-          "cargado": "Dynamax Cannon",
+          "pokemon": "Mega Manectric",
+          "dex": 310,
+          "rapido": "Thunder Fang",
+          "cargado": "Discharge Plus",
           "verificar": false
         },
         {
-          "pokemon": "Mega Rayquaza",
-          "dex": 384,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Future Sight Plus",
           "verificar": false
         },
         {
-          "pokemon": "Mega Dragonite",
-          "dex": 149,
-          "rapido": "Dragon Tail",
-          "cargado": "Outrage Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Garchomp",
-          "dex": 445,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Kyurem Black",
+          "pokemon": "Kyurem White",
           "dex": 0,
-          "rapido": "Dragon Tail",
-          "cargado": "Freeze Shock",
+          "rapido": "Ice Fang",
+          "cargado": "Ice Burn",
           "verificar": false
         },
         {
-          "pokemon": "Primal Groudon",
-          "dex": 383,
-          "rapido": "Mud Shot",
-          "cargado": "Precipice Blades",
+          "pokemon": "Mega Raichu X",
+          "dex": 26,
+          "rapido": "Thunder Shock",
+          "cargado": "Volt Tackle Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Raichu Y",
+          "dex": 26,
+          "rapido": "Thunder Shock",
+          "cargado": "Zap Cannon Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zekrom Oscuro",
+          "dex": 644,
+          "rapido": "Charge Beam",
+          "cargado": "Fusion Bolt",
           "verificar": false
         }
       ]
     }
   ],
-  "proximos": [
-    {
-      "nombre": "Cresselia",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-16",
-      "dex": 488
-    },
-    {
-      "nombre": "Darkrai",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-16",
-      "dex": 491
-    },
-    {
-      "nombre": "Mega Banette",
-      "tipo_incursion": "Mega",
-      "desde": "2026-11-16",
-      "dex": 354
-    },
-    {
-      "nombre": "Tornadus Oscuro",
-      "tipo_incursion": "Oscuro",
-      "desde": "2026-11-16",
-      "dex": 641
-    }
-  ]
+  "proximos": []
 }

@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-15",
+  "semana": "Actualizado el 2026-11-16",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -162,15 +162,15 @@
         {
           "pokemon": "Mega Beedrill",
           "dex": 15,
-          "rapido": "Infestation",
+          "rapido": "Bug Bite",
           "cargado": "Fell Stinger Plus",
           "verificar": false
         }
       ]
     },
     {
-      "id": "kyurem-black-form",
-      "nombre": "Kyurem Black",
+      "id": "kyurem-white-form",
+      "nombre": "Kyurem White",
       "dex": 0,
       "tipo_incursion": "5 estrellas",
       "tipos": [
@@ -223,10 +223,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Zamazenta Crowned Shield",
-          "dex": 0,
-          "rapido": "Metal Claw",
-          "cargado": "Behemoth Bash",
+          "pokemon": "Mega Lucario",
+          "dex": 448,
+          "rapido": "Force Palm",
+          "cargado": "Aura Sphere",
           "verificar": false
         },
         {
@@ -244,10 +244,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Mega Lucario",
-          "dex": 448,
-          "rapido": "Force Palm",
-          "cargado": "Aura Sphere",
+          "pokemon": "Zamazenta Crowned Shield",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Behemoth Bash",
           "verificar": false
         },
         {
@@ -255,88 +255,6 @@
           "dex": 0,
           "rapido": "Metal Claw",
           "cargado": "Sunsteel Strike",
-          "verificar": false
-        }
-      ]
-    },
-    {
-      "id": "reshiram",
-      "nombre": "Reshiram",
-      "dex": 643,
-      "tipo_incursion": "5 estrellas",
-      "tipos": [
-        "Dragón",
-        "Fuego"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Tierra",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Roca",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Dragón",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 2,
-        "recomendado": 2,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Viento"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Eternatus",
-          "dex": 890,
-          "rapido": "Dragon Tail",
-          "cargado": "Dynamax Cannon",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Garchomp",
-          "dex": 445,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Rayquaza",
-          "dex": 384,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Dragonite",
-          "dex": 149,
-          "rapido": "Dragon Tail",
-          "cargado": "Outrage Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Primal Groudon",
-          "dex": 383,
-          "rapido": "Mud Shot",
-          "cargado": "Precipice Blades",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Mewtwo Y",
-          "dex": 150,
-          "rapido": "Psycho Cut",
-          "cargado": "Future Sight Plus",
           "verificar": false
         }
       ]
@@ -367,12 +285,10 @@
       },
       "clima": {
         "mejor": [
-          "Niebla"
+          "Niebla",
+          "Viento"
         ],
-        "evitar": [
-          "Parcialmente nublado",
-          "Lluvia"
-        ],
+        "evitar": [],
         "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
         "verificar": false
       },
@@ -385,13 +301,6 @@
           "verificar": false
         },
         {
-          "pokemon": "Necrozma Dawn Wings",
-          "dex": 0,
-          "rapido": "Psycho Cut",
-          "cargado": "Moongeist Beam",
-          "verificar": false
-        },
-        {
           "pokemon": "Mega Chandelure",
           "dex": 609,
           "rapido": "Hex",
@@ -399,10 +308,17 @@
           "verificar": false
         },
         {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Psycho Cut",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
           "pokemon": "Mega Mewtwo Y",
           "dex": 150,
           "rapido": "Psycho Cut",
-          "cargado": "Future Sight Plus",
+          "cargado": "Shadow Ball",
           "verificar": false
         },
         {
@@ -413,10 +329,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Darkrai Oscuro",
-          "dex": 491,
-          "rapido": "Snarl",
-          "cargado": "Foul Play",
+          "pokemon": "Mega Tyranitar",
+          "dex": 248,
+          "rapido": "Bite",
+          "cargado": "Brutal Swing",
           "verificar": false
         }
       ]
@@ -439,23 +355,25 @@
           "Lluvia",
           "Nieve"
         ],
-        "evitar": [],
+        "evitar": [
+          "Niebla"
+        ],
         "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
         "verificar": false
       },
       "atacantes": [
         {
-          "pokemon": "Mega Manectric",
-          "dex": 310,
-          "rapido": "Thunder Fang",
-          "cargado": "Discharge Plus",
-          "verificar": false
-        },
-        {
           "pokemon": "Mega Mewtwo Y",
           "dex": 150,
           "rapido": "Psycho Cut",
           "cargado": "Future Sight Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Manectric",
+          "dex": 310,
+          "rapido": "Thunder Fang",
+          "cargado": "Discharge Plus",
           "verificar": false
         },
         {
@@ -466,10 +384,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Mega Raichu X",
-          "dex": 26,
-          "rapido": "Thunder Shock",
-          "cargado": "Volt Tackle Plus",
+          "pokemon": "Zekrom Oscuro",
+          "dex": 644,
+          "rapido": "Charge Beam",
+          "cargado": "Fusion Bolt",
           "verificar": false
         },
         {
@@ -480,14 +398,39 @@
           "verificar": false
         },
         {
-          "pokemon": "Zekrom Oscuro",
-          "dex": 644,
-          "rapido": "Charge Beam",
-          "cargado": "Fusion Bolt",
+          "pokemon": "Mega Raichu X",
+          "dex": 26,
+          "rapido": "Thunder Shock",
+          "cargado": "Volt Tackle Plus",
           "verificar": false
         }
       ]
     }
   ],
-  "proximos": []
+  "proximos": [
+    {
+      "nombre": "Mega Beedrill",
+      "tipo_incursion": "Mega",
+      "desde": "2026-11-24",
+      "dex": 15
+    },
+    {
+      "nombre": "Mega Houndoom",
+      "tipo_incursion": "Mega",
+      "desde": "2026-11-24",
+      "dex": 229
+    },
+    {
+      "nombre": "Mega Manectric",
+      "tipo_incursion": "Mega",
+      "desde": "2026-11-24",
+      "dex": 310
+    },
+    {
+      "nombre": "Mega Sableye",
+      "tipo_incursion": "Mega",
+      "desde": "2026-11-24",
+      "dex": 302
+    }
+  ]
 }

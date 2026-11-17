@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-16",
+  "semana": "Actualizado el 2026-11-17",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -164,6 +164,97 @@
           "dex": 15,
           "rapido": "Bug Bite",
           "cargado": "Fell Stinger Plus",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "kyurem-black-form",
+      "nombre": "Kyurem Black",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Dragón",
+        "Hielo"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Lucha",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Roca",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Dragón",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Acero",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Hada",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Nieve",
+          "Viento"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Counter",
+          "cargado": "Dynamic Punch Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zamazenta Crowned Shield",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Behemoth Bash",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zacian Crowned Sword",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Behemoth Blade",
+          "verificar": false
+        },
+        {
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Garchomp",
+          "dex": 445,
+          "rapido": "Dragon Tail",
+          "cargado": "Breaking Swipe",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Lucario",
+          "dex": 448,
+          "rapido": "Force Palm",
+          "cargado": "Aura Sphere",
           "verificar": false
         }
       ]
@@ -409,6 +500,30 @@
   ],
   "proximos": [
     {
+      "nombre": "Deoxys Attack",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-25",
+      "dex": 0
+    },
+    {
+      "nombre": "Deoxys Defense",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-25",
+      "dex": 0
+    },
+    {
+      "nombre": "Deoxys Normal",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-25",
+      "dex": 0
+    },
+    {
+      "nombre": "Deoxys Speed",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-11-25",
+      "dex": 0
+    },
+    {
       "nombre": "Mega Beedrill",
       "tipo_incursion": "Mega",
       "desde": "2026-11-24",
@@ -425,6 +540,12 @@
       "tipo_incursion": "Mega",
       "desde": "2026-11-24",
       "dex": 310
+    },
+    {
+      "nombre": "Mega Metagross",
+      "tipo_incursion": "Mega",
+      "desde": "2026-11-25",
+      "dex": 376
     },
     {
       "nombre": "Mega Sableye",

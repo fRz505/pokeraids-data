@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-17",
+  "semana": "Actualizado el 2026-11-21",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -33,8 +33,7 @@
       },
       "clima": {
         "mejor": [
-          "Niebla",
-          "Lluvia"
+          "Niebla"
         ],
         "evitar": [],
         "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
@@ -162,7 +161,7 @@
         {
           "pokemon": "Mega Beedrill",
           "dex": 15,
-          "rapido": "Bug Bite",
+          "rapido": "Infestation",
           "cargado": "Fell Stinger Plus",
           "verificar": false
         }
@@ -244,17 +243,17 @@
           "verificar": false
         },
         {
-          "pokemon": "Mega Garchomp",
-          "dex": 445,
-          "rapido": "Dragon Tail",
-          "cargado": "Breaking Swipe",
-          "verificar": false
-        },
-        {
           "pokemon": "Mega Lucario",
           "dex": 448,
           "rapido": "Force Palm",
           "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dusk Mane",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Sunsteel Strike",
           "verificar": false
         }
       ]
@@ -376,8 +375,7 @@
       },
       "clima": {
         "mejor": [
-          "Niebla",
-          "Viento"
+          "Niebla"
         ],
         "evitar": [],
         "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
@@ -454,17 +452,17 @@
       },
       "atacantes": [
         {
-          "pokemon": "Mega Mewtwo Y",
-          "dex": 150,
-          "rapido": "Psycho Cut",
-          "cargado": "Future Sight Plus",
-          "verificar": false
-        },
-        {
           "pokemon": "Mega Manectric",
           "dex": 310,
           "rapido": "Thunder Fang",
           "cargado": "Discharge Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Future Sight Plus",
           "verificar": false
         },
         {
@@ -475,10 +473,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Zekrom Oscuro",
-          "dex": 644,
-          "rapido": "Charge Beam",
-          "cargado": "Fusion Bolt",
+          "pokemon": "Mega Raichu X",
+          "dex": 26,
+          "rapido": "Thunder Shock",
+          "cargado": "Volt Tackle Plus",
           "verificar": false
         },
         {
@@ -489,10 +487,10 @@
           "verificar": false
         },
         {
-          "pokemon": "Mega Raichu X",
-          "dex": 26,
-          "rapido": "Thunder Shock",
-          "cargado": "Volt Tackle Plus",
+          "pokemon": "Zekrom Oscuro",
+          "dex": 644,
+          "rapido": "Charge Beam",
+          "cargado": "Fusion Bolt",
           "verificar": false
         }
       ]

@@ -168,6 +168,330 @@
       ]
     },
     {
+      "id": "deoxys-attack-form",
+      "nombre": "Deoxys Attack",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Psíquico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Bicho",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 1,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Niebla"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Shadow Claw",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Darkrai Oscuro",
+          "dex": 491,
+          "rapido": "Snarl",
+          "cargado": "Foul Play",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Tyranitar",
+          "dex": 248,
+          "rapido": "Bite",
+          "cargado": "Brutal Swing",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Absol",
+          "dex": 359,
+          "rapido": "Snarl",
+          "cargado": "Brutal Swing",
+          "verificar": false
+        },
+        {
+          "pokemon": "Hydreigon Oscuro",
+          "dex": 635,
+          "rapido": "Bite",
+          "cargado": "Brutal Swing",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "deoxys-defense-form",
+      "nombre": "Deoxys Defense",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Psíquico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Bicho",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 3,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Niebla"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Hex",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Psycho Cut",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Beedrill",
+          "dex": 15,
+          "rapido": "Bug Bite",
+          "cargado": "Fell Stinger Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Gengar",
+          "dex": 94,
+          "rapido": "Lick",
+          "cargado": "Shadow Ball",
+          "verificar": false
+        },
+        {
+          "pokemon": "Darkrai Oscuro",
+          "dex": 491,
+          "rapido": "Snarl",
+          "cargado": "Foul Play",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "deoxys-normal-form",
+      "nombre": "Deoxys Normal",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Psíquico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Bicho",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Niebla"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Hex",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Shadow Claw",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Tyranitar",
+          "dex": 248,
+          "rapido": "Bite",
+          "cargado": "Brutal Swing",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Shadow Ball",
+          "verificar": false
+        },
+        {
+          "pokemon": "Darkrai Oscuro",
+          "dex": 491,
+          "rapido": "Snarl",
+          "cargado": "Foul Play",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "deoxys-speed-form",
+      "nombre": "Deoxys Speed",
+      "dex": 0,
+      "tipo_incursion": "5 estrellas",
+      "tipos": [
+        "Psíquico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Bicho",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 2,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Niebla"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Hex",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Shadow Claw",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Tyranitar",
+          "dex": 248,
+          "rapido": "Bite",
+          "cargado": "Brutal Swing",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Gengar",
+          "dex": 94,
+          "rapido": "Shadow Claw",
+          "cargado": "Shadow Ball",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Beedrill",
+          "dex": 15,
+          "rapido": "Infestation",
+          "cargado": "Fell Stinger Plus",
+          "verificar": false
+        }
+      ]
+    },
+    {
       "id": "kyurem-black-form",
       "nombre": "Kyurem Black",
       "dex": 0,
@@ -672,6 +996,92 @@
       ]
     },
     {
+      "id": "metagross-mega",
+      "nombre": "Mega Metagross",
+      "dex": 376,
+      "tipo_incursion": "Mega",
+      "tipos": [
+        "Acero",
+        "Psíquico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Fuego",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Tierra",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Fantasma",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Siniestro",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Niebla"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Delphox",
+          "dex": 655,
+          "rapido": "Fire Spin",
+          "cargado": "Mystical Fire Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Houndoom",
+          "dex": 229,
+          "rapido": "Snarl",
+          "cargado": "Dark Pulse Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Chandelure",
+          "dex": 609,
+          "rapido": "Fire Spin",
+          "cargado": "Ominous Wind Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Primal Groudon",
+          "dex": 383,
+          "rapido": "Mud Shot",
+          "cargado": "Precipice Blades",
+          "verificar": false
+        },
+        {
+          "pokemon": "Reshiram Oscuro",
+          "dex": 643,
+          "rapido": "Fire Fang",
+          "cargado": "Fusion Flare",
+          "verificar": false
+        },
+        {
+          "pokemon": "Necrozma Dawn Wings",
+          "dex": 0,
+          "rapido": "Shadow Claw",
+          "cargado": "Moongeist Beam",
+          "verificar": false
+        }
+      ]
+    },
+    {
       "id": "sableye-mega",
       "nombre": "Mega Sableye",
       "dex": 302,
@@ -816,36 +1226,5 @@
       ]
     }
   ],
-  "proximos": [
-    {
-      "nombre": "Deoxys Attack",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-25",
-      "dex": 0
-    },
-    {
-      "nombre": "Deoxys Defense",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-25",
-      "dex": 0
-    },
-    {
-      "nombre": "Deoxys Normal",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-25",
-      "dex": 0
-    },
-    {
-      "nombre": "Deoxys Speed",
-      "tipo_incursion": "5 estrellas",
-      "desde": "2026-11-25",
-      "dex": 0
-    },
-    {
-      "nombre": "Mega Metagross",
-      "tipo_incursion": "Mega",
-      "desde": "2026-11-25",
-      "dex": 376
-    }
-  ]
+  "proximos": []
 }

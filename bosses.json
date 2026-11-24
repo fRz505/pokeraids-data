@@ -1,5 +1,5 @@
 {
-  "semana": "Actualizado el 2026-11-21",
+  "semana": "Actualizado el 2026-11-24",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
@@ -427,6 +427,326 @@
       ]
     },
     {
+      "id": "beedrill-mega",
+      "nombre": "Mega Beedrill",
+      "dex": 15,
+      "tipo_incursion": "Mega",
+      "tipos": [
+        "Bicho",
+        "Veneno"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Fuego",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Volador",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Psíquico",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Roca",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 1,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Viento"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Future Sight Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Rayquaza",
+          "dex": 384,
+          "rapido": "Air Slash",
+          "cargado": "Dragon Ascent",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Psystrike",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Delphox",
+          "dex": 655,
+          "rapido": "Fire Spin",
+          "cargado": "Mystical Fire Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Staraptor",
+          "dex": 398,
+          "rapido": "Wing Attack",
+          "cargado": "Brave Bird Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Skarmory",
+          "dex": 227,
+          "rapido": "Air Slash",
+          "cargado": "Drill Peck Plus",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "houndoom-mega",
+      "nombre": "Mega Houndoom",
+      "dex": 229,
+      "tipo_incursion": "Mega",
+      "tipos": [
+        "Siniestro",
+        "Fuego"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Agua",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Lucha",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Tierra",
+          "multiplicador": 1.6
+        },
+        {
+          "tipo": "Roca",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 1,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Lluvia"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Counter",
+          "cargado": "Dynamic Punch Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Blaziken",
+          "dex": 257,
+          "rapido": "Counter",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Greninja",
+          "dex": 658,
+          "rapido": "Water Shuriken",
+          "cargado": "Surf Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Lucario",
+          "dex": 448,
+          "rapido": "Force Palm",
+          "cargado": "Aura Sphere",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Falinks",
+          "dex": 870,
+          "rapido": "Counter",
+          "cargado": "Brick Break Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Keldeo",
+          "dex": 647,
+          "rapido": "Low Kick",
+          "cargado": "Secret Sword",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "manectric-mega",
+      "nombre": "Mega Manectric",
+      "dex": 310,
+      "tipo_incursion": "Mega",
+      "tipos": [
+        "Eléctrico"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Tierra",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 1,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Viento"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Primal Groudon",
+          "dex": 383,
+          "rapido": "Mud Shot",
+          "cargado": "Precipice Blades",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo Y",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Future Sight Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Garchomp",
+          "dex": 445,
+          "rapido": "Mud Shot",
+          "cargado": "Earth Power",
+          "verificar": false
+        },
+        {
+          "pokemon": "Groudon Oscuro",
+          "dex": 383,
+          "rapido": "Mud Shot",
+          "cargado": "Precipice Blades",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Mewtwo X",
+          "dex": 150,
+          "rapido": "Psycho Cut",
+          "cargado": "Dynamic Punch Plus",
+          "verificar": false
+        },
+        {
+          "pokemon": "Garchomp Oscuro",
+          "dex": 445,
+          "rapido": "Mud Shot",
+          "cargado": "Earth Power",
+          "verificar": false
+        }
+      ]
+    },
+    {
+      "id": "sableye-mega",
+      "nombre": "Mega Sableye",
+      "dex": 302,
+      "tipo_incursion": "Mega",
+      "tipos": [
+        "Siniestro",
+        "Fantasma"
+      ],
+      "debilidades": [
+        {
+          "tipo": "Hada",
+          "multiplicador": 1.6
+        }
+      ],
+      "jugadores": {
+        "minimo": 1,
+        "recomendado": 2,
+        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
+        "verificar": false
+      },
+      "clima": {
+        "mejor": [
+          "Viento",
+          "Lluvia"
+        ],
+        "evitar": [],
+        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
+        "verificar": false
+      },
+      "atacantes": [
+        {
+          "pokemon": "Mega Gardevoir",
+          "dex": 282,
+          "rapido": "Charm",
+          "cargado": "Dazzling Gleam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Mega Rayquaza",
+          "dex": 384,
+          "rapido": "Dragon Tail",
+          "cargado": "Dragon Ascent",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zacian Crowned Sword",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Play Rough",
+          "verificar": false
+        },
+        {
+          "pokemon": "Gardevoir Oscuro",
+          "dex": 282,
+          "rapido": "Charm",
+          "cargado": "Dazzling Gleam",
+          "verificar": false
+        },
+        {
+          "pokemon": "Zamazenta Crowned Shield",
+          "dex": 0,
+          "rapido": "Metal Claw",
+          "cargado": "Behemoth Bash",
+          "verificar": false
+        },
+        {
+          "pokemon": "Eternatus",
+          "dex": 890,
+          "rapido": "Dragon Tail",
+          "cargado": "Dynamax Cannon",
+          "verificar": false
+        }
+      ]
+    },
+    {
       "id": "tornadus-shadow-form",
       "nombre": "Tornadus Oscuro",
       "dex": 641,
@@ -522,34 +842,10 @@
       "dex": 0
     },
     {
-      "nombre": "Mega Beedrill",
-      "tipo_incursion": "Mega",
-      "desde": "2026-11-24",
-      "dex": 15
-    },
-    {
-      "nombre": "Mega Houndoom",
-      "tipo_incursion": "Mega",
-      "desde": "2026-11-24",
-      "dex": 229
-    },
-    {
-      "nombre": "Mega Manectric",
-      "tipo_incursion": "Mega",
-      "desde": "2026-11-24",
-      "dex": 310
-    },
-    {
       "nombre": "Mega Metagross",
       "tipo_incursion": "Mega",
       "desde": "2026-11-25",
       "dex": 376
-    },
-    {
-      "nombre": "Mega Sableye",
-      "tipo_incursion": "Mega",
-      "desde": "2026-11-24",
-      "dex": 302
     }
   ]
 }

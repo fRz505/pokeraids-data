@@ -1,172 +1,8 @@
 {
-  "semana": "Actualizado el 2026-11-24",
+  "semana": "Actualizado el 2026-11-25",
   "nota": "Datos generados automáticamente a partir de simulaciones de Pokébattler (atacantes nivel 40). Son estimaciones.",
   "fuente": "Datos: Pokébattler (pokebattler.com)",
   "jefes": [
-    {
-      "id": "cresselia",
-      "nombre": "Cresselia",
-      "dex": 488,
-      "tipo_incursion": "5 estrellas",
-      "tipos": [
-        "Psíquico"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Bicho",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Fantasma",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Siniestro",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 2,
-        "recomendado": 3,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Niebla"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Mega Houndoom",
-          "dex": 229,
-          "rapido": "Snarl",
-          "cargado": "Dark Pulse Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Chandelure",
-          "dex": 609,
-          "rapido": "Hex",
-          "cargado": "Ominous Wind Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Necrozma Dawn Wings",
-          "dex": 0,
-          "rapido": "Shadow Claw",
-          "cargado": "Moongeist Beam",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Mewtwo Y",
-          "dex": 150,
-          "rapido": "Psycho Cut",
-          "cargado": "Shadow Ball",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Beedrill",
-          "dex": 15,
-          "rapido": "Bug Bite",
-          "cargado": "Fell Stinger Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Darkrai Oscuro",
-          "dex": 491,
-          "rapido": "Snarl",
-          "cargado": "Foul Play",
-          "verificar": false
-        }
-      ]
-    },
-    {
-      "id": "darkrai",
-      "nombre": "Darkrai",
-      "dex": 491,
-      "tipo_incursion": "5 estrellas",
-      "tipos": [
-        "Siniestro"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Lucha",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Bicho",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Hada",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 1,
-        "recomendado": 2,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Lluvia"
-        ],
-        "evitar": [
-          "Niebla"
-        ],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Mega Mewtwo X",
-          "dex": 150,
-          "rapido": "Counter",
-          "cargado": "Dynamic Punch Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Blaziken",
-          "dex": 257,
-          "rapido": "Counter",
-          "cargado": "Aura Sphere",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Lucario",
-          "dex": 448,
-          "rapido": "Force Palm",
-          "cargado": "Aura Sphere",
-          "verificar": false
-        },
-        {
-          "pokemon": "Keldeo",
-          "dex": 647,
-          "rapido": "Low Kick",
-          "cargado": "Secret Sword",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Falinks",
-          "dex": 870,
-          "rapido": "Counter",
-          "cargado": "Brick Break Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Beedrill",
-          "dex": 15,
-          "rapido": "Infestation",
-          "cargado": "Fell Stinger Plus",
-          "verificar": false
-        }
-      ]
-    },
     {
       "id": "deoxys-attack-form",
       "nombre": "Deoxys Attack",
@@ -674,83 +510,6 @@
       ]
     },
     {
-      "id": "banette-mega",
-      "nombre": "Mega Banette",
-      "dex": 354,
-      "tipo_incursion": "Mega",
-      "tipos": [
-        "Fantasma"
-      ],
-      "debilidades": [
-        {
-          "tipo": "Fantasma",
-          "multiplicador": 1.6
-        },
-        {
-          "tipo": "Siniestro",
-          "multiplicador": 1.6
-        }
-      ],
-      "jugadores": {
-        "minimo": 1,
-        "recomendado": 1,
-        "nota": "Estimación de Pokébattler con atacantes nivel 40: mínimo con los mejores, recomendado con un equipo promedio.",
-        "verificar": false
-      },
-      "clima": {
-        "mejor": [
-          "Niebla"
-        ],
-        "evitar": [],
-        "nota": "Calculado simulando la pelea con cada clima. Sin clima especial la diferencia es chica.",
-        "verificar": false
-      },
-      "atacantes": [
-        {
-          "pokemon": "Mega Houndoom",
-          "dex": 229,
-          "rapido": "Snarl",
-          "cargado": "Dark Pulse Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Chandelure",
-          "dex": 609,
-          "rapido": "Hex",
-          "cargado": "Ominous Wind Plus",
-          "verificar": false
-        },
-        {
-          "pokemon": "Necrozma Dawn Wings",
-          "dex": 0,
-          "rapido": "Psycho Cut",
-          "cargado": "Moongeist Beam",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Mewtwo Y",
-          "dex": 150,
-          "rapido": "Psycho Cut",
-          "cargado": "Shadow Ball",
-          "verificar": false
-        },
-        {
-          "pokemon": "Hydreigon Oscuro",
-          "dex": 635,
-          "rapido": "Bite",
-          "cargado": "Brutal Swing",
-          "verificar": false
-        },
-        {
-          "pokemon": "Mega Tyranitar",
-          "dex": 248,
-          "rapido": "Bite",
-          "cargado": "Brutal Swing",
-          "verificar": false
-        }
-      ]
-    },
-    {
       "id": "beedrill-mega",
       "nombre": "Mega Beedrill",
       "dex": 15,
@@ -1226,5 +985,24 @@
       ]
     }
   ],
-  "proximos": []
+  "proximos": [
+    {
+      "nombre": "Regidrago",
+      "tipo_incursion": "5 estrellas",
+      "desde": "2026-12-02",
+      "dex": 895
+    },
+    {
+      "nombre": "Mega Slowbro",
+      "tipo_incursion": "Mega",
+      "desde": "2026-12-02",
+      "dex": 80
+    },
+    {
+      "nombre": "Dialga Oscuro",
+      "tipo_incursion": "Oscuro",
+      "desde": "2026-12-02",
+      "dex": 483
+    }
+  ]
 }
